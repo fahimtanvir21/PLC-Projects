@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.6">
+  <GVL Name="IO" Id="{b69abd69-2249-4cb5-b74a-bc31d5c385c5}">
+    <Declaration><![CDATA[VAR_GLOBAL
+	//Inputs
+	High_Sensor 	:	BOOL;
+	Low_Sensor 		:	BOOL;
+	Pallet_Sensor 	:	BOOL;
+	Loaded			:	BOOL;
+	At_Left_Entry	:	BOOL;
+	At_Left_Exit	:	BOOL;
+	At_Right_Entry	:	BOOL;
+	At_Right_Exit	:	BOOL;
+	Start			:	BOOL;
+	Reset			:	BOOL;
+	Stop			:	BOOL;
+	Emergency_Stop	:	BOOL;
+	Auto			:	BOOL;
+	FactoryIO_RUN	:	BOOL;
+	//Outputs
+	Conveyor_Entry	:	BOOL;
+	Load			:	BOOL;
+	Unload			:	BOOL;
+	Transfer_Left	: 	BOOL;
+	Transfer_Right	: 	BOOL;
+	Conveyor_Left	: 	BOOL;
+	Conveyor_Right	: 	BOOL;
+	Start_Light		:	BOOL;
+	Reset_Light		:	BOOL;
+	Stop_Light		:	BOOL;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
