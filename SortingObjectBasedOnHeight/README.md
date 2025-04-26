@@ -1,7 +1,5 @@
 # Factory-IO---Sorting-by-Height-Basic-
-Factory IO - Sorting by Height solution using different brand of PLC's. Each time a new brand is used, a new directory will be created and uploaded as a solution.
-
-Here is the youtube link of simulation. You can watch how the system works : https://youtu.be/q-8n5OxRMqs . 
+Factory IO - Sorting by Height solution using different brand of PLC's. Each time a new brand is used, a new directory will be created and uploaded as a solution. 
 
 TIA PORTAL and twincat 3 is uploaded so far. I used the same algorithm and structure for coding. Two project have minimal differencies. Therefore I shooted only one video instead of shooting each. 
 
